@@ -1,0 +1,95 @@
+.burger {
+    font-family: 'poppins' sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+
+}
+.background {
+    background: orange;
+    width: 300px;
+    height: 600px;
+    color: #000;
+    text-align: right;
+    word-spacing: 30px;
+    font-weight: 700px;
+    text-decoration: none;
+    display: flex;
+    
+   }
+.Rain {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8%;
+}
+.image2 {
+    float: right;
+}
+.primary-btn {
+    color:white;
+    background-color: orange;
+    padding:10px 30px 10px 30px;
+    border-top-right-radius: 15px;
+    border-radius: 10px;
+    word-spacing: 0px;
+    font-size: 10px;
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.disp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+.div1 {
+    border: 1px solid black;
+    height:20vh;
+    width:15%;
+    left:15%;
+    top:4vh;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+}
+.div2 {
+    border: 1px solid black;
+    height: 30%;
+    width: 20%;
+    left:40%;
+    top:1.5vh;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+}
+.div3 {
+    border:1px solid black;
+    height: 20%;
+    width:20%;
+    right:10%;
+    top:4vh;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+}
+.menu {
+    text-align: center;
+    top: 30%;
+    font-size: x-large;
+    line-height: 15em;
+}
+.divA {
+    border: 1px solid black;
+    width:30%;
+    height:15vh;
+    left:40%;
+    top:11.5vh;
+    position: absolute;
+    border-radius: 5px;
+}
