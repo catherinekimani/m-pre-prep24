@@ -1,0 +1,10 @@
+p :first-child{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+}
+div p {
+    text-decoration: underline;
+}
+h1, p {
+    font-family: 'comic' sans;
+}

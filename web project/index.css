@@ -1,0 +1,77 @@
+* {
+    border:0px solid black;
+    border-style: inset;
+}
+.LOGO {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'poppins';
+    display: flex;
+}
+span {
+    color: orange;
+}
+.container {
+    display:flex;
+    background: orange;
+    padding: 10px;
+    width: 300px;
+    height:600px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url(./IMAGE/[CITYPNG\ 1.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+a {
+    display: flex;
+    font-weight:lighter;
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    padding: 8px;
+}
+.shopping-cart{
+    display: flex;
+    right: 0px;;
+}
+h1 {
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+}
+.deliver {
+    text-align: left;
+    margin:20px;
+    padding: 5px;
+    position: relative;
+}
+.quality1{
+    border: 1px solid maroon;
+    height:25%;
+    width:20%;
+    left: 10%;
+    text-align: center;
+    bottom: 50px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    overflow:visible;
+}
+h2 {
+    color: maroon;
+}
+.fast {
+    position: relative;
+    left:500px;
+}
