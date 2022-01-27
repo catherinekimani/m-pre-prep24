@@ -1,6 +1,9 @@
 * {
     border:0px solid black;
-    border-style: inset;
+}
+.nav {
+    display: flex;
+    width: 100%;
 }
 .LOGO {
     font-size: 30px;
@@ -8,24 +11,35 @@
     font-weight: bold;
     font-family: 'poppins';
     display: flex;
+    width: 50%;
 }
 span {
     color: orange;
 }
 .container {
     display:flex;
+    justify-content: end;
+    align-items: center;
+    background-image: linear-gradient(120degs, 40%white, 40%orange);
+    width: 50%;
+}
+.order-now {
+    /* padding: 3px; */
+    border-radius: 0px;
     background: orange;
-    padding: 10px;
-    width: 300px;
-    height:600px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    background-image: url(./IMAGE/[CITYPNG\ 1.png);
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-position: left;
-    
+    color: white;
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    width: 100%;
+}
+.left {
+    width: 50%;
+    padding: 5%;
+}
+.right {
+    width: 50%;
 }
 a {
     display: flex;
@@ -45,33 +59,98 @@ h1 {
     padding: 5px;
     position: relative;
 }
-.deliver {
-    text-align: left;
-    margin:20px;
-    padding: 5px;
+#three {
+    width:100%;
+    padding : 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
     position: relative;
 }
-.quality1{
-    border: 1px solid maroon;
-    height:25%;
-    width:20%;
-    left: 10%;
+.our {
     text-align: center;
-    bottom: 50px;
-    position: absolute;
-    border-radius: 5px;
-    margin: 0px;
-    margin-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 80px;
-    overflow:visible;
+    font-weight: bold;
 }
-h2 {
-    color: maroon;
+.menu {
+    width:100%;
+    padding: 10px;
+    display: flex;
 }
-.fast {
-    position: relative;
-    left:500px;
+.menu2 {
+    width:100%;
+    padding: 10px;
+    display: flex;
+}
+.double-decker {
+    width:100%;
+    padding: 10px;
+    background: #a4dbdb;
+    display: flex;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+.three {
+    display: flex;
+    justify-content: space-between;
+}
+.four {
+    display: flex;
+    justify-content: space-between;
+}
+.five {
+    display: flex;
+    justify-content: space-between;
+}
+.six {
+    display: flex;
+    justify-content: space-between;
+}
+.discover {
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+    background: rgba(255, 181, 71, 0.897);
+    display: flex;
+}
+.apps {
+    font-weight: bold;
+    font-size: 30px;
+}
+#logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+    background: white;
+}
+.site-map {
+    display: flex;
+}
+.HOME {
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    margin: 10%;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: -10%;
+    margin-right: -50%;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
