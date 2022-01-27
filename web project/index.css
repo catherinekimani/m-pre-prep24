@@ -1,5 +1,5 @@
-* {
-    border:0px solid black;
+body {
+    border:5px solid black;
 }
 .nav {
     display: flex;
@@ -20,8 +20,8 @@ span {
     display:flex;
     justify-content: end;
     align-items: center;
-    background-image: linear-gradient(120degs, 40%white, 40%orange);
     width: 50%;
+    background: linear-gradient(120deg, 40% white, 40% orange);
 }
 .order-now {
     /* padding: 3px; */
@@ -67,15 +67,58 @@ h1 {
     overflow: hidden;
     background-color: white;
     position: relative;
+    column-gap: 20px;
+    justify-content: space-between;
 }
-.our {
+.quality {
+    border: 1px solid maroon;
+    justify-content: right;
+    width: 15%;
+    padding: 10px;
+    margin-top: 10px;
     text-align: center;
-    font-weight: bold;
+    border-radius: 5px;
+}
+.fast {
+    border: 1px solid maroon;
+    width: 18%;
+    height: 40%;
+    padding: 25px;
+    margin-top: 20px;
+    /* margin-bottom: -45px; */
+    text-align: center;
+    border-radius: 5px;
+}
+.delicious {
+    border: 1px solid maroon;
+    width: 15%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
 .menu {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.burgers {
     width:100%;
     padding: 10px;
     display: flex;
+    justify-content: center;
+    position: relative;
+    column-gap: 10px;
+}
+burger1 {
+    border: 1px solid white;
+    justify-content: right;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
 .menu2 {
     width:100%;
