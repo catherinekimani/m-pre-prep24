@@ -1,2 +1,4 @@
-var bookNumber = 3
-console.log(bookNumber);
+var giraffe = "very Tall"
+console.log(giraffe);
+var tembeaAfrica ="Kenya"
+console.log(tembeaAfrica);
